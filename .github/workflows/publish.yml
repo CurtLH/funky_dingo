@@ -4,7 +4,7 @@ name: Publish documentation
 
 on:
     push:
-        branches: [main] # branch to trigger deployment
+        branches: [master] # branch to trigger deployment
     release:
         types: [published] # releases trigger deployment as well
 
