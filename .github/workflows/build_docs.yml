@@ -1,6 +1,6 @@
 # This workflow builds Sphinx documentation and deploys it to GitHub Pages.
 
-name: Build and publish docd
+name: Build and publish docs
 
 on:
     push:
