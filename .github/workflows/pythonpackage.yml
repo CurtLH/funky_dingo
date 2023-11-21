@@ -30,3 +30,8 @@ jobs:
       run: |
         pip install flake8
         flake8 .  --statistics --show-source
+    - name: Build docs
+      uses: actions/checkout@v1
+      uses: ammaraskar/sphinx-action@master
+      with:
+        docs-folder: "docs/"
