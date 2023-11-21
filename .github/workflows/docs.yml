@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Build docs
     - uses: ammaraskar/sphinx-action@master
       with:
         build-command: "sphinx-build -b html . _build"
-        docs-folder: "docs2/"
+        docs-folder: "docs/"
