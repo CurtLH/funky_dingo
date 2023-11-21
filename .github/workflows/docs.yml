@@ -1,0 +1,17 @@
+name: Documentatino
+
+on:
+  push:
+    branches:    
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        build-command: "sphinx-build -b html . _build"
+        docs-folder: "docs2/"
