@@ -1,0 +1,10 @@
+name: funky-dingo-dev
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - click
+  - sphinx
+  - pytest
+  - black
+  - flake8
