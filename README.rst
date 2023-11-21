@@ -2,20 +2,6 @@
 funky_dingo
 ===========
 
-
-.. image:: https://img.shields.io/pypi/v/funky_dingo.svg
-        :target: https://pypi.python.org/pypi/funky_dingo
-
-.. image:: https://img.shields.io/travis/curtlh/funky_dingo.svg
-        :target: https://travis-ci.com/curtlh/funky_dingo
-
-.. image:: https://readthedocs.org/projects/funky-dingo/badge/?version=latest
-        :target: https://funky-dingo.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
-
-
-
-
 This is my project.
 
 
