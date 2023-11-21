@@ -6,7 +6,6 @@ import pytest
 
 from click.testing import CliRunner
 
-from funky_dingo import funky_dingo
 from funky_dingo import cli
 
 
