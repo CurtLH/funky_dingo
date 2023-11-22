@@ -1,7 +1,7 @@
 # This workflow builds Sphinx documentation and deploys it to GitHub Pages.
 # https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
 
-name: Deploy docs to gh-pages 
+name: Deploy docs 
 
 on:
     push:
