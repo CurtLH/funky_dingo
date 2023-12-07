@@ -17,7 +17,8 @@ jobs:
           cd docs
           sphinx-apidoc -o ./source ../funky_dingo
           sphinx-build -b html . _build -w /tmp/sphinx.log
-     - uses: peaceiris/actions-gh-pages@v3
-       with:
-         github_token: ${{ secrets.GITHUB_TOKEN }}
-         publish_dir: ./_build
+      - name: Deploy docs
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_build
